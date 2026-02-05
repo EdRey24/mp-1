@@ -52,10 +52,15 @@ main{
     color: #2D2A42;
 }
 
+#main{
+    padding: 1% 2%;
+}
+
 #bio{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    text-align: center;
     align-items: center;
     width: 100%;
     margin: 5% 0;
@@ -73,6 +78,12 @@ h2, h3, h4, .content-container a {
 
 main img{
     max-width: 40%;
+}
+
+#bio p, #intro{
+    line-height: 100%;
+    font-size: calc(2px + 2vw);
+    padding: 2%;
 }
 
 header, footer{
@@ -140,25 +151,6 @@ button{
 }
 
 @media screen and (max-width: 1000px){
-    nav li{
-        margin: 20% auto;
-    }
-
-    nav a{
-        font-size: calc(2px + 2.3vw);
-    }
-
-    main{
-        width: 100%;
-    }
-
-    .content-container{
-        align-items: center;
-        margin-top: 6%;
-    }
-}
-
-@media screen and (max-width: 750px){
     header{
         text-align: center;
     }
@@ -177,6 +169,29 @@ button{
         justify-content: center;
     }
 
+    nav li{
+        margin: 2% 1%;
+    }
+
+    nav a{
+        font-size: calc(2px + 2.3vw);
+    }
+
+    main{
+        width: 100%;
+    }
+
+    #bio{
+        flex-direction: column;
+    }
+
+    .content-container{
+        align-items: center;
+        margin-top: 6%;
+    }
+}
+
+@media screen and (max-width: 750px){
     nav li{
         width: 60%;
         margin: 2% 1%;
