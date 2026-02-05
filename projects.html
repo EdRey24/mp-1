@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>Projects | Edward's Resume</title>
+      <link rel="stylesheet" type="text/css" href="index.css">
+  </head>
+  <body>
+        <div id="page-wrapper">
+            <header>
+                <h1>Edward's Resume</h1>
+                <p>An online application showcasing Edward's careers background</p>
+            </header>
+            <div id="container">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="experiences.html">Experiences</a></li>
+                        <li><a href="education.html">Education</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="awards.html">Awards</a></li>
+                        <li><a href="leadership.html">Leadership</a></li>
+                    </ul>
+                </nav>
+                <main>
+                    <div class="content-container">
+                        <h3><a href="https://github.com/GoogleCloudPlatform/cloud-run-mcp" target="_blank">Google Cloud Run MCP Server</a> | JavaScript, Google Cloud, Docker, Gemini AI, MCP</h3>
+                        <ul>
+                            <li>Streamlined server configuration by implementing environment variable-based defaults, improving developer efficiency.</li>
+                            <li>Enhanced server security and simplified authentication by integrating Google Cloud Platform authentication verification, minimizing manual credential management.</li>
+                        </ul>
+                    </div>
+                    <div class="content-container">
+                        <h3>CLI Wordle + AI | Python</h3>
+                        <ul>
+                            <li>Developed a CLI-based Wordle game in Python, featuring a curated 12,000+ word dictionary and a real-time visual feedback system utilizing three distinct color indicators (green, yellow, grey) for intuitive guess evaluation.</li>
+                            <li>Designed and implemented an AI-powered guess recommendation engine leveraging efficient word filtering and pattern matching algorithms, to provide statistically optimal suggestions in under 50 milliseconds.</li>
+                        </ul>
+                    </div>
+                    <div class="content-container">
+                        <h3><a href="https://github.com/EdRey24/CashAlert" target="_blank">Cash Alert</a> | Google App Script, HTML, Google Sheets, Gmail</h3>
+                        <ul>
+                            <li>Designed a free solution for organizing school/community fundraisers through Google App Script, HTML, Google Sheets, and Gmail.</li>
+                            <li>Provided weekly email reminders and payment management to student organizations, addressing limitations of costly and restrictive alternatives.</li>
+                        </ul>
+                    </div>
+
+                    <div id="calc-container" class="content-container">
+                        <h2>Edward's Calculator</h2>
+                        <label for="first-num">Enter first number</label>
+                        <input type="text" id="first-num">
+                        <label for="second-num">Enter second number</label>
+                        <input type="text" id="second-num">
+                        <button onclick="addition()">+</button>
+                        <button onclick="subtraction()">-</button>
+                        <button onclick="multiplication()">*</button>
+                        <button onclick="division()">/</button>
+                        <button onclick="power()">**</button>
+                        <button onclick="clearCalc()">Clear</button>
+                        <h3 id="output"></h3>
+                    </div>
+                </main>
+            </div>
+            <footer>
+                <h3 id="credits">All rights reserved &#169; <a href="credits.html">Credits</a></h3>
+            </footer>
+        </div>
+        <script src="calculator.js"></script>
+  </body>
+</html>
