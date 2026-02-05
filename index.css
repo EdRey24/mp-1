@@ -179,6 +179,7 @@ button{
     }
 
     nav li{
+        width: 60%;
         margin: 2% 1%;
     }
 
