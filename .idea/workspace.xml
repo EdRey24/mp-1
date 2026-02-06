@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffa54706-902d-4ac8-bd9c-726da669dfba" name="Changes" comment="Removed unnecessary background color">
+    <list default="true" id="ffa54706-902d-4ac8-bd9c-726da669dfba" name="Changes" comment="Added profile img, with responsive styling, and added description meta tag to all pages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/awards.html" beforeDir="false" afterPath="$PROJECT_DIR$/awards.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/education.html" beforeDir="false" afterPath="$PROJECT_DIR$/education.html" afterDir="false" />
@@ -98,7 +98,7 @@
       <workItem from="1769789869688" duration="5204000" />
       <workItem from="1770159008467" duration="26796000" />
       <workItem from="1770262938394" duration="1190000" />
-      <workItem from="1770301045966" duration="1722000" />
+      <workItem from="1770301045966" duration="5700000" />
     </task>
     <task id="LOCAL-00001" summary="Limited width for proper nav sizing for smaller screens">
       <option name="closed" value="true" />
@@ -116,7 +116,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770264071944</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added profile img, with responsive styling, and added description meta tag to all pages">
+      <option name="closed" value="true" />
+      <created>1770302832705</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1770302832706</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,7 +144,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Limited width for proper nav sizing for smaller screens" />
     <MESSAGE value="Removed unnecessary background color" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed unnecessary background color" />
+    <MESSAGE value="Added profile img, with responsive styling, and added description meta tag to all pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added profile img, with responsive styling, and added description meta tag to all pages" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/mp_1$education_html.dat" NAME="education.html Coverage Results" MODIFIED="1770159375618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

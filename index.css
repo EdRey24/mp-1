@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    margin: 0; /* Remove default margins */
     box-sizing: border-box;
 }
 
@@ -81,36 +81,35 @@ main img{
 }
 
 #bio p, #intro{
-    line-height: 100%;
-    font-size: calc(2px + 2vw);
-    padding: 2%;
+    font-size: calc(2px + 2vw); /* Make font size responsive */
+    padding: 2%; /* Add some padding for spacing between bio and img */
 }
 
 header, footer{
-    padding: 1%;
-    color: #FFF9F9;
+    padding: 1%; /* Add some size to the header and footer boxes */
+    color: #FFF9F9; /* Set the text color to white */
 }
 
 header {
-    background-color: #4A2B8C; /* Deep Plum - Header background */
+    background-color: #4A2B8C; /* Deep Plum header background */
 }
 
 footer{
-    background-color: #2D2A42; /* Dark Charcoal Purple - Footer background */
+    background-color: #2D2A42; /* Dark Charcoal Purple footer background */
 }
 
 #credits, a{
-    text-decoration: none;
-    color: #FFF9F9;
+    text-decoration: none; /* Get rid of the underline for the credits link */
+    color: #FFF9F9; /* Set the color to white */
 }
 
 .content-container{
-    margin: 3% 5% 3% 3%;
-    padding: 2% 2%;
+    margin: 3% 5% 3% 3%; /* Add responsive spacing to each listed project, experience, etc */
+    padding: 2% 2%; /* Add some responsive padding so the boxes aren't so squished */
     background-color: #FFFFFF; /* White content containers */
     border-left: 0.25vw solid #9D7BD8; /* Accent border */
-    border-radius: 0 1vw 1vw 0;
-    color: #2D2A42;
+    border-radius: 0 1vw 1vw 0; /* Curve the edges on both corners on the right */
+    color: #2D2A42; /* Set the text color to Dark Charcoal Purple */
 }
 
 #calc-container{
@@ -141,13 +140,12 @@ button{
 }
 
 #output{
-    color: #FFF9F9;
-    background-color: #2B2D42;
-    padding: 4.5%;
-    margin: auto;
-    max-width: 50%;
-    border-radius: 1.5vw;
-    font-size: calc(2px + 2vw);
+    background-color: #2B2D42; /* Create a distinctive box for the output */
+    padding: 4.5%; /* Add some padding to make it bigger */
+    margin: auto; /* Center the output box */
+    max-width: 50%; /* Restrict the max width of the box to 50% */
+    border-radius: 1.5vw; /* Curve all the corners */
+    font-size: calc(2px + 2vw); /* Make the font size responsive */
 }
 
 @media screen and (max-width: 1000px){
@@ -194,7 +192,8 @@ button{
 @media screen and (max-width: 750px){
     nav li{
         width: 60%;
-        margin: 2% 1%;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     nav a{
